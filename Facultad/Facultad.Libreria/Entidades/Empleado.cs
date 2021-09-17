@@ -39,5 +39,11 @@ namespace EjFacultad.Libreria.Entidades
             return "Nombre y Apellido: " + Nombre + Apellido;
         }
 
+        //Empleado a su vez implementa GetCredencial devolviendo el string con el siguiente template: "{legajo} - {nombreCompleto} salario $ {ultimoSalarioNeto}"
+        public string GetCredencial()
+        {
+            //FALTA DESARROLLO ULTIMOSALARIONETO!
+            return Legajo + "-" + GetNombreCompleto() + UltimoSalario;
+        }
     }
 }
