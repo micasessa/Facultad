@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Facultad.Libreria;
+using EjFacultad.Libreria.Entidades;
 
-namespace Facultad.Consola
+namespace EjFacultad.Consola
 {
     class Program
     {

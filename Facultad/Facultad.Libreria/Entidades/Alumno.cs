@@ -4,10 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Facultad.Libreria.Entidades
+namespace EjFacultad.Libreria.Entidades
 {
     public class Alumno : Persona
     {
-        private int _codigo;
+        protected int _codigo;
+        
+        //Propiedad Getter
+        public int Codigo { get => _codigo; }
+
+        //Constructor 1
+        public Alumno(int codigo, string nombre, string apellido) : base(nombre, apellido)
+        {
+            this._codigo = codigo;
+
+        }
     }
 }

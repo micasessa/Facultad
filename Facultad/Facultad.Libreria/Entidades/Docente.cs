@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Facultad.Libreria.Entidades
+namespace EjFacultad.Libreria.Entidades
 {
     public class Docente: Empleado
     {
