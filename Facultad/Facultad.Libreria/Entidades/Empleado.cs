@@ -32,6 +32,12 @@ namespace EjFacultad.Libreria.Entidades
         {
             this._legajo = legajo;
         }
-        
+
+        //Creacion de metodo NombreCompleto
+        public string GetNombreCompleto()
+        {
+            return "Nombre y Apellido: " + Nombre + Apellido;
+        }
+
     }
 }

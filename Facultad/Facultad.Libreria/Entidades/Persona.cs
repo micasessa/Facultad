@@ -32,9 +32,9 @@ namespace EjFacultad.Libreria.Entidades
         }
 
         //Metodos enunciado
-        public string GetNombreCompleto(string identidad)
+        public string GetNombreCompleto()
         {
-            //Falta desarrollar
+            return "Nombre y Apellido: " + Nombre + Apellido;
         }
         
 
