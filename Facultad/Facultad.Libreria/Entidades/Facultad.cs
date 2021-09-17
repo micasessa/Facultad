@@ -13,5 +13,16 @@ namespace EjFacultad.Libreria.Entidades
         private List<Empleado> _empleados;
         private string _nombre;
 
+        //Creacion propiedades
+        public int CantidadSedes { get => _cantidadSedes; }
+        public string Nombre { get => _nombre; }
+
+        //Creacion constructor 1
+        public Facultad (string nombre, int cantidadSedes)
+        {
+            this._nombre = nombre;
+            this._cantidadSedes = cantidadSedes;
+        }
+
     }
 }

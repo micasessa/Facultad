@@ -18,5 +18,11 @@ namespace EjFacultad.Libreria.Entidades
         {
             this._apodo = apodo;
         }
+
+        //Creacion metodo
+        public string GetNombreCompleto(string nombre, string apellido)
+        {
+            //FALTA DESARROLLO
+        }
     }
 }
