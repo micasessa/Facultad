@@ -15,7 +15,7 @@ namespace EjFacultad.Libreria.Entidades
         //Propiedades GETTER
         public string Apellido { get => _apellido; }
         public string Nombre { get => _nombre; }
-        public DateTime FechaNacimiento { get => _fechaNac; }
+        public DateTime Edad { get => _fechaNac; }
 
         //Creacion constructor 1
         public Persona (string nombre, string apellido)
@@ -23,6 +23,20 @@ namespace EjFacultad.Libreria.Entidades
             this._nombre = nombre;
             this._apellido = apellido;
         }
+        public Persona(string nombre, string apellido, DateTime fechaNac)
+        {
+            this._nombre = nombre;
+            this._apellido = apellido;
+            this._fechaNac = fechaNac;
+
+        }
+
+        //Metodos enunciado
+        public string GetNombreCompleto(string identidad)
+        {
+            //Falta desarrollar
+        }
+        
 
     }
 }

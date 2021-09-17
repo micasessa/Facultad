@@ -8,5 +8,16 @@ namespace EjFacultad.Libreria.Entidades
 {
     public class Directivo : Empleado
     {
+        //Creacion constructor
+        public Directivo(int legajo, string nombre, string apellido) : base(legajo, nombre, apellido)
+        {
+            
+        }
+
+        //Creacion metodo
+        public string GetNombreCompleto(string nombre, string apellido)
+        {
+            //FALTA DESARROLLO
+        }
     }
 }

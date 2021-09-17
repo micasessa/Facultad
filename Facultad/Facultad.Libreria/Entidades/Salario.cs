@@ -13,5 +13,21 @@ namespace EjFacultad.Libreria.Entidades
         private double _descuentos;
         private DateTime _fecha;
 
+        //Creacion propiedades Getter
+        public double Bruto { get => _bruto; }
+        public string CodigoTransferencia { get => _codigoTransferencia; }
+        public double Descuentos { get => _descuentos; }
+        public DateTime Fecha { get => _fecha; }
+
+        //Creacion de metodos
+        public double GetSalarioNeto()
+        {
+            //Falta desarrollar
+        }
+
+        public void Salario (double)
+        {
+            //Falta desarrollar
+        }
     }
 }

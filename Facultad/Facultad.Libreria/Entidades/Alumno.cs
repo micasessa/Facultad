@@ -17,7 +17,9 @@ namespace EjFacultad.Libreria.Entidades
         public Alumno(int codigo, string nombre, string apellido) : base(nombre, apellido)
         {
             this._codigo = codigo;
-
         }
+
+        
+
     }
 }
