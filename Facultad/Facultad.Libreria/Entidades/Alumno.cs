@@ -25,7 +25,7 @@ namespace EjFacultad.Libreria.Entidades
         public string GetCredencial ()
         {
             //FALTA DESARROLLO
-            return "Codigo" + Codigo + _apellido.Persona + _nombre.Persona;
+            return "Codigo" + Codigo + Apellido + Nombre;
         }
 
         //metodo para Listar persona
