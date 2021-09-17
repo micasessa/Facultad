@@ -21,16 +21,17 @@ namespace EjFacultad.Libreria.Entidades
 
 
         //En caso de alumno, el metodo ToString invoca el metodo GetCredencial que devuelve un string con este template
-        //"Código {codigo}) {apellido}, {nombre}"
+        //"Código {codigo}) {apellido}, {nombre}"        
         public string GetCredencial ()
         {
+            //FALTA DESARROLLO
             return "Codigo" + Codigo + _apellido.Persona + _nombre.Persona;
         }
 
-        //metodo para que me devuelva el nombre de la clase
+        //metodo para Listar persona
         public override string ToString()
         {
-            return GetCredencial(codigo);
+            //FALTA DESARROLLO
         }
 
 

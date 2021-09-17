@@ -17,7 +17,7 @@ namespace EjFacultad.Libreria.Entidades
         //Creacion metodo
         public string GetNombreCompleto()
         {
-            return "Nombre y Apellido: " + Nombre + Apellido;
+            return "Sr. Director: " + Apellido;
         }
     }
 }
