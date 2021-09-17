@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Facultad.Libreria.Entidades
 {
-    public class Empleado
+    public class Empleado : Persona
     {
         private DateTime _fechaIngreso;
         private int _legajo;
         private List<Salario> _salarios;
+        private Salario _ultimoSalario;
     }
 }

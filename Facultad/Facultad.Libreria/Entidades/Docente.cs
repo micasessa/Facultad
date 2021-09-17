@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Facultad.Libreria.Entidades
 {
-    public class Docente
+    public class Docente: Empleado
     {
     }
 }

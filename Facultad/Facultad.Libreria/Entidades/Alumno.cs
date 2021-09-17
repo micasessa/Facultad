@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Facultad.Libreria.Entidades
 {
-    public class Alumno
+    public class Alumno : Persona
     {
         private int _codigo;
     }
