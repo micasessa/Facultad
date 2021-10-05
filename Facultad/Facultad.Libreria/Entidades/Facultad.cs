@@ -18,11 +18,57 @@ namespace EjFacultad.Libreria.Entidades
         public string Nombre { get => _nombre; }
 
         //Creacion constructor 1
-        public Facultad (string nombre, int cantidadSedes)
+        public Facultad(string nombre, int cantidadSedes)
         {
             this._nombre = nombre;
             this._cantidadSedes = cantidadSedes;
         }
 
-    }
+        //Creacion de metodos
+        public void AgregarAlumno(Alumno)
+        {
+            //FALTA DES
+        }
+
+        public void AgregarEmpleado(Empleado)
+        {
+            //FALTA DES
+        }
+
+        public void EliminarAlumno(int)
+        {
+            //FALTA DES
+        }
+
+        public void EliminarEmpleado(int)
+        {
+            //FALTA DES
+        }
+
+        public void ModificarEmpleado(Empleado)
+        {
+            //FALTA DES
+        }
+
+        public List<Alumno> TraerAlumnos()
+        {
+            //FALTA DES
+        }
+
+        public Empleado TraerEmpleadoPorLegajo(int)
+        {
+            //FALTA DES
+        }
+
+        public List<Empleado> TraerEmpleados()
+        {
+            //FALTA DES
+        }
+
+        public List<Empleado> TraerEmpleadosPorNombre (string)
+        {
+            //FALTA DES
+        }
+
+    }  
 }

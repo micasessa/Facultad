@@ -12,6 +12,8 @@ namespace EjFacultad.Libreria.Entidades
 
         //Propiedad Getter
         public int Codigo { get => _codigo; }
+        //FALTA DESARROLLO
+        public string Credencial { }
 
         //Constructor 1
         public Alumno(int codigo, string nombre, string apellido) : base(nombre, apellido)

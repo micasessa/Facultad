@@ -15,7 +15,9 @@ namespace EjFacultad.Libreria.Entidades
         //Propiedades GETTER
         public string Apellido { get => _apellido; }
         public string Nombre { get => _nombre; }
-        public DateTime Edad { get => _fechaNac; }
+        //Falta calcular edda!
+
+        public int Edad { get => _fechaNac; }
 
         //Creacion constructor 1
         public Persona (string nombre, string apellido)
@@ -35,6 +37,11 @@ namespace EjFacultad.Libreria.Entidades
         public string GetNombreCompleto()
         {
             return "Nombre y Apellido: " + Nombre + Apellido;
+        }
+
+        public string GetCredencial()
+        {
+            //DESARROLLAR
         }
         
 
